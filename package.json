@@ -1,0 +1,37 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Track your expenses",
+  "keywords": [],
+  "homepage": "https://github.com/jaysreeb/Expense-Tracker-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/jaysreeb/Expense-Tracker-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaysreeb/Expense-Tracker-Backend.git"
+  },
+  "license": "ISC",
+  "author": "JB",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.15.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
